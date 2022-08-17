@@ -37,8 +37,8 @@ import { PromotionsModule } from './promotions/promotions.module';
     MeetingModule,
     PromotionsModule,
     RouterModule.forRoot([
-      { path: '', redirectTo: '/booking', pathMatch: 'full' },
-      { path: 'booking', component: BookingComponent },
+      { path: '', redirectTo: '/home', pathMatch: 'full' },
+      { path: 'home', component: BookingComponent },
       { path: 'rooms', component: RoomsComponent },
       {path:'superiorRooms',component:SuperiorRoomsComponent},
       {path:'deluxeRooms',component:DeluxeRoomsComponent},
